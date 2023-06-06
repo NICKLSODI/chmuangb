@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="home.css">
+    <title>chmuangb's team</title>
+  </head>
+
+<body>
+    <!-- navbar -->
+    <header class="
+    sticky 
+    top-0 
+    z-30 
+    w-full 
+    px-2 
+    py-4 
+    sm:px-4">
+        <div class="
+        flex 
+        items-center 
+        justify-between 
+        mx-auto max-w-7xl">
+          <a href="home.html">
+            <img src="pic/logo.png" class="
+            h-6 mr-3 
+            sm:h-9" alt="">
+            </a>
+        </a>
+        </div>
+      </header>
+  
+    <!-- choose chara -->
+    <div>
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 ">
+            <div class="text-center">
+            <h1 class="text-4xl font-medium tracking-tight text-gray-800 sm:text-4xl">Choose <span class="auto-type""></span></h1>
+            </div>
+            <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["your character ...", "'Gail'", "'Nina'"],
+                    typeSpeed: 100,
+                    backSpeed: 100,
+                    loop: true
+                })
+            </script>
+            <div class="flex pt-5">
+                <div class="w-full max-w-sm flex-1">
+                    <div class="flex justify-end px-4 pt-4">
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <a href="gail.html"><img class="w-28 h-28 mb-3 rounded-full hover:shadow-lg transition duration-300 ease-in-out 
+                            hover:scale-110 hover:shadow-green-300/40" src="pic/Gail.png" alt=""></a>
+                        <h5 class="mb-1 text-2xl font-bold text-gray-800">chmuangb</h5>
+                        <span class="text-xl text-gray-500 italic ">Gail</span>
+                    </div>
+                </div>
+    
+                <div class="w-full max-w-sm flex-1">
+                    <div class="flex justify-end px-4 pt-4">
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <a href="nina.html"><img class="w-28 h-28 mb-3 rounded-full hover:shadow-lg transition duration-300 ease-in-out 
+                            hover:scale-110 hover:shadow-blue-500/40" src="pic/Nina.png" alt=""/></a>
+                        <h5 class="mb-1 text-2xl font-bold text-gray-800">nphraeme</h5>
+                        <span class="text-xl text-gray-500 -400 italic">Nina</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

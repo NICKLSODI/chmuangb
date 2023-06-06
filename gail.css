@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=JetBrains:wght@400;700&display=swap');
+/* @type {import('tailwindcss').Config} */
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+    background-image: url(pic/Home.jpg);
+    background-color: #FFF8ED;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+
+}
+
+image-container {
+  padding-left: 30px;
+  position: relative;
+  float: right;
+}
+
+logo {
+  padding-left: 20rem;
+}
+
+.button {
+  font-family: 'JetBrains', monospace ;
+}
